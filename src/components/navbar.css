@@ -1,0 +1,55 @@
+.navbar-container {
+  width: 8rem;
+  height: 97%;
+  background-color: #12214b;
+  color: white;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  border-radius: 60px;
+  vertical-align: center;
+}
+
+.logo-test {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 2rem;
+  transform: translateX(50%);
+}
+
+ul {
+  margin-top: 2rem;
+  padding: 5rem 1rem 1rem 1.2rem;
+}
+
+ul li {
+  list-style: none;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  margin: 2rem 1rem 1rem 1rem;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: rgb(172, 173, 214);
+}
+
+.navbar-footer {
+  background-color: grey;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 2rem;
+  left: 25%;
+  cursor: pointer;
+}
+
+.navbar-footer:hover {
+  background-color: white;
+}

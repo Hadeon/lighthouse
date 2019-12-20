@@ -1,0 +1,46 @@
+.dashboard-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dashboard-item {
+  margin: 1rem;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px 2px #bbb;
+  padding: 1rem;
+  text-align: center;
+}
+
+.icon-test {
+  width: 150px;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.dashboard-balance {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-balance h2 {
+  user-select: none;
+  transform: translate(50%, 35%);
+}
+
+.dashboard-progress {
+  background-color: white; 
+  width: 500px;
+  height: 250px;
+}
+
+.dashboard-forecast {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+}

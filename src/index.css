@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.test {
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.page-header {
+  font-weight: bold;
+  font-size: 2rem;
+}
