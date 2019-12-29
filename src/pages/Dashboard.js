@@ -5,7 +5,7 @@ import './dashboard.css';
 class Dashboard extends Component {
   render(){
     return(
-      <div className="test">
+      <div className="page-container">
         <div className="dashboard-flex-container">
           <div className="dashboard-item dashboard-balance">
             <div className="icon-test"/>
